@@ -1,0 +1,108 @@
+body {
+    height: 100%;
+    background-color: #f7fffc;
+    min-height: 100% !important;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+header>div {
+    background-color: #f2f2f2;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+}
+
+.brand-name {
+    font-weight: bold;
+}
+
+header div img {
+    width: 25px;
+}
+
+.brand-name span {
+    vertical-align: top;
+}
+
+.nav-menu {
+    text-align: left;
+}
+
+.nav-cart {
+    text-align: right;
+}
+
+.nav-cart span {
+    vertical-align: top;
+}
+
+section>div {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding: 15px;
+}
+
+section>div>div {
+    margin-right: 20px;
+}
+
+section>div>div h3 {
+    padding: 0;
+    margin: 0 0 1em 0;
+}
+
+section>div>div h3 img {
+    width: 60px;
+    float: left;
+    margin-right: 1em;
+}
+
+h3,
+h4 {
+    margin: 0;
+}
+
+section table {
+    width: 100%;
+}
+
+section table td img {
+    width: 20px;
+}
+
+section table td span {
+    vertical-align: top;
+}
+
+aside table {
+    background-color: #bfbfbf;
+    width: 100%;
+    padding: 1em;
+}
+
+footer {
+    padding: 15px;
+}
+
+footer table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+footer table tr {
+    border-top: 1px solid gray;
+}
+
+footer table th {
+    width: 10%;
+}
+
+footer table td:first-child {
+    width: 60%;
+    text-align: left;
+}
+
+footer table td:last-child {
+    width: 30%;
+    text-align: right;
+}
