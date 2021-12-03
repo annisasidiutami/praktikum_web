@@ -1,4 +1,5 @@
 * {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
     font-size: 20px;
 }
@@ -21,6 +22,7 @@ header {
     background-color: PaleTurquoise;
     color: white;
     display: flex;
+    margin: 0.5em;
     min-height: 10vh;
     justify-content: center;
     align-items: center;
@@ -34,8 +36,9 @@ header {
 #content > aside {
     background-color: DarkTurquoise;
     color: white;
-    min-height: 68vh;
+    min-height: 59vh;
     display: flex;
+    margin: 0.5em;
     flex: 0.4;
     justify-content: center;
     align-items: center;
@@ -46,6 +49,7 @@ header {
     background-color: Salmon;
     color: white;
     flex: 0.6;
+    margin: 0.5em;
     display: flex;
     flex-direction: column;
     align-content: flex-end;
@@ -78,6 +82,7 @@ footer {
     color: white;
     justify-content: center;
     align-items: center;
+    margin: 0.5em;
     display: flex;
     min-height: 13vh;
 }
