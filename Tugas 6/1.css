@@ -1,0 +1,10 @@
+#first {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#second {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
