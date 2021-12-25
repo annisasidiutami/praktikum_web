@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 10 No. 4</title>
+</head>
+<body>
+    <!-- Username : admin Password : admin -->
+    <table>
+        <tr>
+            <td><input type="number" id="tb_bil1" value="0" onkeyup="hitung()"> + </td>
+            <td><input type="number" id="tb_bil2" value="0" onkeyup="hitung()"> = </td>
+            <td><input type="text" id="tb_total" readonly></td>
+        </tr>
+    </table>
+</body> 
+<script>
+    function hitung(){
+        const bil1 = document.getElementById('tb_bil1');
+        const bil2 = document.getElementById('tb_bil2');
+        const total = document.getElementById('tb_total');
+
+        let total_val = parseInt(bil1.value) + parseInt(bil2.value);
+
+        total.value = new Intl.NumberFormat().format(total_val);
+        
+    }
+</script>
+</html>
